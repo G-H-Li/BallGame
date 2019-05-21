@@ -152,13 +152,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="basketball.h" />
-    <ClInclude Include="basketball1.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ball.cpp" />
     <ClCompile Include="basketball.cpp" />
-    <ClCompile Include="basketball1.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

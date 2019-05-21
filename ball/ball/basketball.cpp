@@ -333,11 +333,6 @@ void basketball::ballRefresh()
 }
 
 
-int basketball::xOffset = 1;
-int basketball::yOffset = 1;
-int basketball::ballX;
-int basketball::ballY;
-
 basketball::~basketball()
 {
 }

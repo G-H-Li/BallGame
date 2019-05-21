@@ -19,8 +19,8 @@ private:
 public:
 	basketball() { ballY = 16; xOffset = yOffset = 1; };
 	~basketball();
-	static int xOffset, yOffset;  //定义初始横坐标和纵坐标偏移量
-	static int ballY, ballX;  //定义球的初始显示位置
+	int xOffset=1 ,yOffset = 1;  //定义初始横坐标和纵坐标偏移量
+	int ballY, ballX;  //定义球的初始显示位置
 	void initBall(int color);
 	void showBall(int color);
 	void judgeBoard(pf clearBoard, vector<vector<int>> &obstacle);

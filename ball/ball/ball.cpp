@@ -7,7 +7,6 @@
 #include <conio.h>
 #include <time.h>
 #include "basketball.h"
-#include "basketball1.h"
 
 using namespace std;
 
@@ -22,7 +21,7 @@ void roundTwo();
 void showBoundary();
 void init();
 
-//初始化障碍物二维数组,待优化
+//初始化障碍物二维数组
 void initObstacle(const char file[])
 {
 	int buffer[2];
@@ -544,7 +543,7 @@ void roundTwo()
 	start1= start2 = start3= clock();
 
 	basketball b1;
-	basketball1 b2;
+	basketball b2;
 
 	showBoundary();
 	initObstacle("2.txt");
